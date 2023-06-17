@@ -12,21 +12,13 @@ from googleapiclient.errors import HttpError
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
 # IDs e intervalos das planilhas de exemplo.
-SPREADSHEET_IDS = ['1oPDEL4WFHxRQJtelNnODUeP27MVesFvCis-xMyh4E0A', #Giovanna S
-                   '16-6u2v-7J1-vsfoUqw32zw95t_wv__-uB87NjKUVX68', #Luciana
-                    '1gUsP91E8e0MLIPBi2KcqLtUAKuYU85dZHWTA6CvmrE4', #Giovanna P
-                    '11eFXvWal11CDywrCJoSm_ZV885v9nWVosWYcy5yPQpY',#Bianca
-                    '1e-840b-da9SYwW1fP7hzvL637osZ8gbEEeztZPUw2yA',#Luana
-                    '1SUR0w8DbG1hsUPmKKLGKdyxWzxlTndDudUz-kSH5Nzc',#Luiz
-                    '1h0hRZe2kkFT0zypmgH8aJutTuH35LbJRk10WkpCAW-8', #Bete
-                    '1MrTWlYR5Q8xLYs_8dNIWKAwJA-3RLcrYJZWAVMepd7Q',#Amanda 
-                    '1sYsuXjBbqJJcWYHRxSEeJzChWl-x2IAo0U9v304wEWQ',#Sabatha
-                    '1EFaUUo6wv_mziGr1VW6Avc5Iwwbk0cEfqVMndxatBJM',#Andressa
-                    '1zhJATymBAGaqmCu07930RlkQjxiwF1vHnJrF0FS0flc', #Karyna
-                    '1trPpDGHex-KiccSX0NBa7TgOUWHhk3a2zvICI08Cb_I', #Nicolas
-                    '1f-jzoEzF9mgXpv0awBUw_wXFVOgqyA0xv5f387FJjw8'#Julia
-                    ] 
-RANGE_NAMES = ['FRASE!A1:F', 'FRASE!A1:F', 'FRASE!A1:F', 'FRASE!A1:F', 'FRASE!A1:F' , 'FRASE!A1:F' , 'FRASE!A1:F' , 'FRASE!A1:F' , 'FRASE!A1:F' , 'FRASE!A1:F', 'FRASE!A1:F' ,'FRASE!A1:F', 'FRASE!A1:F']
+SPREADSHEET_IDS = ['ID_DA_PLANILHA', #Giovanna S
+                   ' ID_DA_PLANILHA ', #Luciana
+                    ' ID_DA_PLANILHA ', #Giovanna P
+                    ' ID_DA_PLANILHA ',#Bianca
+                    ' ID_DA_PLANILHA ',#Luana
+                                 ] 
+RANGE_NAMES = ['FRASE!A1:F', 'FRASE!A1:F', 'FRASE!A1:F', 'FRASE!A1:F', 'FRASE!A1:F']
 
 
 def main():
